@@ -1,0 +1,82 @@
+8
+
+dir
+602
+https://svn.lean-men.com/svn/trunk/enebo/vendor/plugins/acts_as_slugable
+https://svn.lean-men.com/svn
+
+
+
+2008-02-29T23:57:40.625577Z
+463
+alto
+
+
+svn:special svn:externals svn:needs-lock
+
+test
+dir
+
+rakefile
+file
+
+
+
+
+2008-02-28T19:55:23.000000Z
+1a939fcc768213165a55d7a831a596f5
+2008-02-29T23:57:40.625577Z
+463
+alto
+
+init.rb
+file
+
+
+
+
+2008-02-28T19:55:23.000000Z
+499d905a501d355ec7d74063c0b43bc0
+2008-02-29T23:57:40.625577Z
+463
+alto
+
+TODO
+file
+
+
+
+
+2008-02-28T19:55:23.000000Z
+73c3003c86c4d8778921d9ca631228b2
+2008-02-29T23:57:40.625577Z
+463
+alto
+
+lib
+dir
+
+MIT-LICENSE
+file
+
+
+
+
+2008-02-28T19:55:23.000000Z
+4eab069d9e19604855c504669c33e783
+2008-02-29T23:57:40.625577Z
+463
+alto
+
+README
+file
+
+
+
+
+2008-02-28T19:55:23.000000Z
+d70b96e8156226dd0e7d1be6c2d0103f
+2008-02-29T23:57:40.625577Z
+463
+alto
+

@@ -1,0 +1,46 @@
+8
+
+dir
+602
+https://svn.lean-men.com/svn/trunk/enebo/vendor/plugins/annotate_models
+https://svn.lean-men.com/svn
+
+
+
+2007-08-23T21:39:49.878333Z
+349
+alto
+
+
+svn:special svn:externals svn:needs-lock
+
+tasks
+dir
+
+lib
+dir
+
+ChangeLog
+file
+
+
+
+
+2007-05-11T13:23:00.000000Z
+d6d7c4ec7466a950da7647f0fba5240c
+2007-08-23T21:39:49.878333Z
+349
+alto
+
+README
+file
+
+
+
+
+2007-05-11T13:23:00.000000Z
+1584d33a28eca3bccb7ae644600aaef0
+2007-08-23T21:39:49.878333Z
+349
+alto
+

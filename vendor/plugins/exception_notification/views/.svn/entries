@@ -1,0 +1,19 @@
+8
+
+dir
+602
+https://svn.lean-men.com/svn/trunk/enebo/vendor/plugins/exception_notification/views
+https://svn.lean-men.com/svn
+
+
+
+2007-10-05T19:48:52.313577Z
+384
+alto
+
+
+svn:special svn:externals svn:needs-lock
+
+exception_notifier
+dir
+

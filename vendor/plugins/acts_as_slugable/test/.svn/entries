@@ -1,0 +1,67 @@
+8
+
+dir
+602
+https://svn.lean-men.com/svn/trunk/enebo/vendor/plugins/acts_as_slugable/test
+https://svn.lean-men.com/svn
+
+
+
+2008-02-29T23:57:40.625577Z
+463
+alto
+
+
+svn:special svn:externals svn:needs-lock
+
+test_helper.rb
+file
+
+
+
+
+2008-02-28T19:55:23.000000Z
+fbc91889d922ca983f4182fdcf4b27e2
+2008-02-29T23:57:40.625577Z
+463
+alto
+
+schema.rb
+file
+
+
+
+
+2008-02-28T19:55:23.000000Z
+7f3a16a311f19cd3ca85c34034e6ed6d
+2008-02-29T23:57:40.625577Z
+463
+alto
+
+database.yml
+file
+
+
+
+
+2008-02-28T19:55:23.000000Z
+f47cf5e7f349830de0153bb7f211d804
+2008-02-29T23:57:40.625577Z
+463
+alto
+
+fixtures
+dir
+
+acts_as_slugable_test.rb
+file
+
+
+
+
+2008-02-28T19:55:23.000000Z
+41bab761a4b97b9505787c584c43d04e
+2008-02-29T23:57:40.625577Z
+463
+alto
+

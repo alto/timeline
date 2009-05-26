@@ -1,0 +1,154 @@
+
+html, body {
+	height: 100%;
+}
+
+body {
+  font-size: 16px;
+  font-family: Lucida Grande, Verdana, sans-serif;
+/*  background-image: url(/images/background.gif);*/
+  background-repeat:  repeat-x;
+  background-color: #FFF;
+  color: #333;
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -25px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 25px; /* .push must be the same height as .footer */
+}
+
+h1 {
+  position:relative;
+  left:-4.6ex;
+}
+
+#logo {
+  font-size: 1.8em;
+  font-style: oblique;
+  font-family: 'Handwriting - Dakota', Georgia;
+}
+
+#logo, #logo_subtitle {
+  position:relative;
+  left: -200px;
+/*  top: -25px;*/
+  font-style: oblique;
+  font-family: 'Handwriting - Dakota', Georgia;
+}
+
+#logo a {
+  color:#333;
+  text-decoration:none;
+}
+
+#logo_subtitle {
+  color:#A0A0A0;
+}
+
+#timeline {
+}
+
+#timeline li {
+  position:relative;
+  margin-top: 3em;
+  list-style-type:none;
+  font-family: 'Handwriting - Dakota';
+}
+
+#timeline li span.date {
+  position:absolute;
+  left:-4ex;
+  top: -1.5em;
+/*  font-weight: bold;*/
+  font-size: 1.2em;
+  color: #A0A0A0;
+}
+
+#footer_area {
+  clear: both;
+/*  padding: 2px 0 5px 0;*/
+  border-top: 1px solid #1d1d1d;
+  border-bottom: 1px solid #1d1d1d;
+}
+
+#footer {
+/*  margin: 0px auto;*/
+/*  padding: 0px;*/
+}
+
+
+#footer a:link,
+#footer a:visited {
+/*  margin: 0;*/
+/*  padding: 6px 4px;*/
+}
+
+#footer li.selected, 
+#footer a:hover {
+/*  margin: 0;*/
+/*  padding: 3px 4px;*/
+}
+
+ul.cloud {
+/*  padding: 0;*/
+  list-style-type: none;
+  text-align: center;
+}
+
+ul.cloud li {
+/*  padding-right: 4px;*/
+  display: inline;
+}
+
+ul.admin {
+  position: absolute;
+  list-style-type: none;
+}
+
+label {
+  display: block;
+/*  margin-top: 15px;*/
+}
+
+input.contact,
+textarea.contact {
+  border: 1px solid black;
+  width: 400px;
+}
+
+textarea.contact {
+  height: 100px;
+}
+
+div.error {
+  border: 1px solid #CC3300;
+/*  padding: 5px;*/
+}
+
+div.info {
+  border: 1px solid #CC9900;
+/*  padding: 5px;*/
+}
+
+ul.tagcloud {
+  clear: both;
+/*  padding: 5px 0;*/
+}
+
+ul.tagcloud li{
+  display: inline;
+}
+
+.subtitle {
+  position:relative;
+  top: -20px;
+}

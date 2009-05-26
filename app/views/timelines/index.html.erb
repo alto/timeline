@@ -1,0 +1,10 @@
+<h1>Timelines</h1>
+
+<ol id="timeline">
+  <%- @milestones.each do |milestone| -%>
+    <li>
+      <%= milestone.text %>
+      <span class="date"><%= display_date milestone.date %></span>
+    </li>
+  <%- end -%>
+</ol>

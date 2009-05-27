@@ -69,7 +69,7 @@ h1 {
   left:-4ex;
   top: -1.5em;
 /*  font-weight: bold;*/
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #A0A0A0;
 }
 
@@ -182,3 +182,9 @@ ul.tagcloud li{
   top: -20px;
 }
 
+.string_button {
+  color:#333;
+  text-decoration:none;
+  font-family:'Handwriting - Dakota';
+  font-size: 3em;
+}

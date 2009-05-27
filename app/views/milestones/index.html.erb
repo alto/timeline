@@ -1,17 +1,17 @@
 <h1>&nbsp;</h1>
 
-<%- form_for @milestone do |form| -%>
+<%- form_for(@milestone) do |form| -%>
   <%= error_messages_for :milestone %>
   <fieldset id="milestone_date">
     <%= form.text_field :day %>.<%= form.text_field :month %>.<%= form.text_field :year %>
   </fieldset>
   <%= form.text_field :text %>
-  <%= submit_tag %>
+  <%= submit_tag 'Add' %>
 <%- end -%>
 
 <ol id="timeline">
   <%- @milestones.each do |milestone| -%>
-    <li>
+    <li id="milestone_<%= milestone.id %>">
       <%=h milestone.text %>
       <span class="date"><%= display_date_for_milestone milestone %></span>
     </li>

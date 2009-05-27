@@ -2,8 +2,10 @@
 
 <%- form_for @milestone do |form| -%>
   <%= error_messages_for :milestone %>
+  <fieldset id="milestone_date">
+    <%= form.text_field :day %>.<%= form.text_field :month %>.<%= form.text_field :year %>
+  </fieldset>
   <%= form.text_field :text %>
-  <%= form.text_field :date %>
   <%= submit_tag %>
 <%- end -%>
 
@@ -11,7 +13,7 @@
   <%- @milestones.each do |milestone| -%>
     <li>
       <%=h milestone.text %>
-      <span class="date"><%= display_date milestone.date %></span>
+      <span class="date"><%= display_date_for_milestone milestone %></span>
     </li>
   <%- end -%>
 </ol>

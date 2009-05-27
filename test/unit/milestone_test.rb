@@ -9,7 +9,7 @@ class MilestoneTest < ActiveSupport::TestCase
     end
 
     should "require some fields" do
-      %w(text date).each do |field|
+      %w(text day month year).each do |field|
         assert @milestone.errors.on(field)
       end
     end

@@ -77,20 +77,29 @@ form#new_milestone {
   position:relative;
 }
 
-input#milestone_text, input#milestone_date {
+input#milestone_text, input#milestone_day, input#milestone_month, input#milestone_year {
   font-family: 'Handwriting - Dakota';
   font-size: 2.5ex;
+  border: 1px dashed black;
 }
 
 input#milestone_text {
   width: 40ex;
 }
 
-input#milestone_date {
+fieldset#milestone_date {
   position:absolute;
-  left:-4ex;
-  top:-2.2em;
-  width: 10ex;
+  left:-5ex;
+  top:-2.7em;
+  width: 25ex;
+}
+
+input#milestone_day, input#milestone_month {
+  width: 3ex;
+}
+
+input#milestone_year {
+  width: 5ex;
 }
 
 #footer_area {

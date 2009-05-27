@@ -18,7 +18,7 @@ class MilestonesControllerTest < ActionController::TestCase
   
   context "requesting to list milestones" do
     setup do
-      @milestone = Milestone.create!(:text => 'test', :date => Time.now)
+      @milestone = Milestone.create!(:text => 'test', :day => '13', :month => '08', :year => '1969')
     end
 
     should "succeed and deliver the milestones" do
@@ -32,7 +32,7 @@ class MilestonesControllerTest < ActionController::TestCase
 
     should "succeed and create it" do
       Milestone.delete_all
-      post :create, {:milestone => {:text => 'test', :date => Time.now}}
+      post :create, {:milestone => {:text => 'test', :day => '13', :month => '08', :year => '1969'}}
       assert_template "milestones/index"
       assert assigns(:milestone).new_record?
       milestone = Milestone.first

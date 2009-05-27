@@ -1,4 +1,11 @@
-<h1>Timelines</h1>
+<h1>&nbsp;</h1>
+
+<%- form_for @milestone do |form| -%>
+  <%= error_messages_for :milestone %>
+  <%= form.text_field :text %>
+  <%= form.text_field :date %>
+  <%= submit_tag %>
+<%- end -%>
 
 <ol id="timeline">
   <%- @milestones.each do |milestone| -%>
@@ -8,3 +15,4 @@
     </li>
   <%- end -%>
 </ol>
+

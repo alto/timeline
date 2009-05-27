@@ -73,6 +73,26 @@ h1 {
   color: #A0A0A0;
 }
 
+form#new_milestone {
+  position:relative;
+}
+
+input#milestone_text, input#milestone_date {
+  font-family: 'Handwriting - Dakota';
+  font-size: 2.5ex;
+}
+
+input#milestone_text {
+  width: 40ex;
+}
+
+input#milestone_date {
+  position:absolute;
+  left:-4ex;
+  top:-2.2em;
+  width: 10ex;
+}
+
 #footer_area {
   clear: both;
 /*  padding: 2px 0 5px 0;*/
@@ -152,3 +172,4 @@ ul.tagcloud li{
   position:relative;
   top: -20px;
 }
+

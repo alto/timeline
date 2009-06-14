@@ -33,8 +33,6 @@ class MilestonesControllerTest < ActionController::TestCase
     should "succeed and create it" do
       Milestone.delete_all
       post :create, {:milestone => {:text => 'test', :day => '13', :month => '08', :year => '1969'}}
-      assert_template "milestones/index"
-      assert assigns(:milestone).new_record?
       milestone = Milestone.first
       assert_equal 'test', milestone.text
     end
